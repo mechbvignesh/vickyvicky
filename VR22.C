@@ -2,9 +2,9 @@
 int main()
 {
 int a,b[3],larg,i;
-printf("Enter the number of elements: ");
+printf("ENTER THE NUMBER OF ELEMENTS: ");
 scanf("%d",&a);
-printf("Enter the array elements: ");
+printf("ENTER THE ARRAY ELEMENTS: ");
 for(i=1;i<=a;i++)
 {
 scanf("%d\n",b[i]);
