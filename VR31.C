@@ -5,7 +5,7 @@ int main()
 	char X[100];
 	int i,count=0,Y;
 	scanf("%s",&X);
-	b=strlen(X);
+	Y=strlen(X);
 	for(i=0;i<Y;i++)
 	{
 		if((X[i]='a')&&(X[i]='z')||(X[i]='A')&&(X[i]='Z'))
