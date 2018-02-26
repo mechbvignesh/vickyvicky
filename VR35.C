@@ -3,11 +3,11 @@
 int main()
 {
 char str[100];
-int i,count=0;
+int l,count=0;
 scanf("%[^\n]s",&str);
-for(i=0;str[i]!='\0';i++)
+for(l=0;str[l]!='\0';l++)
 {
-if(str[i]>='0'&&str[i]<='9')
+if(str[l]>='0'&&str[l]<='9')
 count++;
 }
 printf("%d",count);
