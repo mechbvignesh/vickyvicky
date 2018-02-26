@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include<string.h>
-int main(void) {
-	char str[50];
+int main(void) 
+{
+	char str[100];
 	int counter,count=0,countSpace;
 	for(counter=0;str[counter]!='\0';counter++)
 	{
