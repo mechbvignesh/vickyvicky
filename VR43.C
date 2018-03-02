@@ -14,6 +14,7 @@ int main()
 		a[i]='\0';
 	}
 	printf("%s",a);
+	getch();
   return 0;
-  getch();
+ 
 }
