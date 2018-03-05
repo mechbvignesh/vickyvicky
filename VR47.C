@@ -1,29 +1,29 @@
 #include<stdio.h>
 int main()
 {
-	int a,b[100],large,small,i;
-	scanf("%d",&a);
-	for(i=0;i<a;i++)
+	int L,O[100],large,small,i;
+	scanf("%d",&L);
+	for(i=0;i<L;i++)
 	{
-		scanf("%d",&b[i]);
+		scanf("%d",&O[i]);
 		
 	}
-	large=b[0];
-	for(i=0;i<a;i++)
+	large=O[0];
+	for(i=0;i<L;i++)
 	{
-	if(b[i]>large)
+	if(O[i]>large)
 	{
-		large=b[i];
+		large=O[i];
 	}
 
 	}
 		printf("Large %d\n",large);
-	small=b[0];
-	for(i=0;i<a;i++)
+	small=O[0];
+	for(i=0;i<L;i++)
 	{
-		if(b[i]<small)
+		if(O[i]<small)
 		{
-			small=b[i];
+			small=O[i];
 		}
 	
 	}
