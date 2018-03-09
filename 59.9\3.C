@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-	int l[10],i,large;
+	int O[10],i,large;
 for(i=0;i<10;i++)
 {
-	scanf("%d",&l[i]);
+	scanf("%d",&O[i]);
 }
-l[0]=large;
+O[0]=large;
 for(i=0;i<10;i++)
 {
-	if(l[i]>large)
+	if(O[i]>large)
 	{
-	large=l[i];
+	large=O[i];
 	}
 }
 printf("%d",large);
